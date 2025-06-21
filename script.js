@@ -1,7 +1,11 @@
+// variable definition
 let name = prompt("Please enter your name: ");
 let age = prompt("Please enter your age: ");
+// convert age into int numbers
 age = parseInt(age);
 
+// conditional to validate first if age is a number, if it's not it shows an error,
+// if the person is over 18 years old shows a message, if is under 18 years old shows another message.
 if (isNaN(age)) {
   console.error("value is not valid. Keep trying.");
   alert(`Hi ${name}, please enter a valid number`);
